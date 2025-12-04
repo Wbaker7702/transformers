@@ -1,0 +1,16 @@
+# Example .pypirc configuration
+# Copy to ~/.pypirc and fill in your tokens
+
+[distutils]
+index-servers =
+    pypi
+    testpypi
+
+[pypi]
+username = __token__
+password = pypi-your-production-token-here
+
+[testpypi]
+repository = https://test.pypi.org/legacy/
+username = __token__
+password = pypi-your-test-token-here
