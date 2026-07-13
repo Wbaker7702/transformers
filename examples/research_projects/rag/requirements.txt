@@ -1,8 +1,8 @@
 faiss-cpu >= 1.6.3
 datasets >= 1.0.1
 psutil >= 5.7.0
-torch >= 1.4.0
+torch >= 2.13.0
 ray >= 1.10.0
-pytorch-lightning >= 1.5.10, <=1.6.0
+pytorch-lightning <= 2.6.5, >= 2.6.5
 transformers
 GitPython
