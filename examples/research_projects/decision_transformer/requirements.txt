@@ -1,5 +1,5 @@
 absl-py==1.0.0
-aiohttp==3.13.3
+aiohttp==3.14.3
 aiohttp==3.13.4
 aiosignal==1.2.0
 alembic==1.7.7
@@ -35,7 +35,7 @@ cmd2==2.4.0
 codecarbon==1.2.0
 colorlog==6.6.0
 cookiecutter==2.1.1
-cryptography==46.0.6
+cryptography==50.0.0
 csvw==2.0.0
 cycler==0.11.0
 Cython==0.29.28
@@ -68,7 +68,7 @@ fsspec==2022.2.0
 fugashi==1.1.2
 gast==0.5.3
 gitdb==4.0.9
-GitPython==3.1.41
+GitPython==3.1.58
 glfw==2.5.1
 google-auth==2.6.2
 google-auth-oauthlib==0.4.6
@@ -98,7 +98,7 @@ jinja2-time==0.2.0
 jmespath==0.10.0
 joblib==1.2.0
 jsonschema==4.4.0
-keras==3.13.1
+keras==3.15.0
 keras==3.13.2
 Keras-Preprocessing==1.1.2
 kiwisolver==1.4.0
@@ -117,7 +117,7 @@ mujoco-py==2.1.2.14
 multidict==6.0.2
 multiprocess==0.70.12.2
 mypy-extensions==0.4.3
-nltk==3.9.4
+nltk==3.10.0
 numba==0.55.1
 numpy==1.22.3
 oauthlib==3.2.2
@@ -135,7 +135,7 @@ pbr==5.8.1
 pexpect==4.8.0
 phonemizer==3.0.1
 pickleshare==0.7.5
-Pillow==12.1.1
+Pillow==12.3.0
 Pint==0.16.1
 plac==1.3.4
 platformdirs==2.5.1
@@ -153,7 +153,7 @@ pure-eval==0.2.2
 py==1.11.0
 py-cpuinfo==8.0.0
 pyarrow==15.0.0
-pyasn1==0.6.3
+pyasn1==0.6.4
 pyasn1-modules==0.2.8
 pycodestyle==2.8.0
 pycparser==2.21
@@ -219,7 +219,7 @@ timm==0.5.4
 tokenizers==0.11.6
 tomli==2.0.1
 toolz==0.11.2
-torch==2.8.0
+torch==2.13.0
 torchaudio==0.11.0
 torchvision==0.12.0
 tqdm==4.66.3
