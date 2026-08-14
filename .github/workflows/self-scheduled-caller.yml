@@ -9,6 +9,8 @@ on:
     branches:
       - run_scheduled_ci*
 
+permissions: {}
+
 jobs:
   model-ci:
     name: Model CI
