@@ -1,5 +1,8 @@
 name: Self-hosted runner (AMD mi250 scheduled CI caller)
 
+permissions:
+  contents: read
+
 on:
   workflow_run:
     workflows: ["Self-hosted runner (AMD scheduled CI caller)"]
