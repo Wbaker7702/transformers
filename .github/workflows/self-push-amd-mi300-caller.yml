@@ -1,5 +1,9 @@
 name: Self-hosted runner (AMD mi300 CI caller)
 
+permissions:
+  contents: read
+  packages: read
+
 on:
   workflow_run:
     workflows: ["Self-hosted runner (push-caller)"]
