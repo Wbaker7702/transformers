@@ -15,6 +15,9 @@ on:
       - "templates/**"
       - "utils/**"
 
+permissions:
+  contents: read
+
 jobs:
   run_amd_ci:
     name: AMD mi250
