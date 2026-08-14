@@ -1,5 +1,7 @@
 name: Self-hosted runner (nightly-ci)
 
+permissions:
+  contents: read
 
 on:
   repository_dispatch:
