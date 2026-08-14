@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "17 2 * * *"
 
+permissions: {}
+
 jobs:
   run_scheduled_amd_ci:
     name: Trigger Scheduled AMD CI
