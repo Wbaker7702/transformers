@@ -1,5 +1,8 @@
 name: Self-hosted runner (scheduled-amd)
 
+permissions:
+  contents: read
+
 # Note: For the AMD CI, we rely on a caller workflow and on the workflow_call event to trigger the
 # CI in order to run it on both MI210 and MI250, without having to use matrix here which pushes
 # us towards the limit of allowed jobs on GitHub Actions.
