@@ -1,6 +1,9 @@
 # Used to trigger self-push CI
 name: Self-hosted runner (push-caller)
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:
