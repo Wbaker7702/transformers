@@ -6,6 +6,9 @@ on:
       - "src/transformers/models/*/modeling_*.py"
       - "tests/**/test_*.py"
 
+permissions:
+  contents: read
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
   cancel-in-progress: true
