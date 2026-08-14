@@ -1,5 +1,8 @@
 name: Self-hosted runner (scheduled)
 
+permissions:
+  contents: read
+
 # Note that each job's dependencies go into a corresponding docker file.
 #
 # For example for `run_torch_cuda_extensions_gpu` the docker image is
