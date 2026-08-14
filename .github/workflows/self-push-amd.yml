@@ -7,6 +7,9 @@ on:
         required: true
         type: string
 
+permissions:
+  contents: read
+
 env:
   HF_HOME: /mnt/cache
   TRANSFORMERS_IS_CI: yes
